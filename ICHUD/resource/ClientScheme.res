@@ -429,6 +429,9 @@ Scheme
 		"ICCamo"		"165 178 104 255"
 		"ICTurquoise"	"102 214 173 255"
 		"ICCyan"		"95 185 193 255"
+		"ICOverheal"	"101 178 150 255"
+		"ICLowHealth"	"127 32 51 255"
+		"ICLowHealthDark"	"64 16 25 255"
 		
 		// Slightly Transparent Colors
 		"ICWhiteFade"		"255 255 255 160"
@@ -464,7 +467,7 @@ Scheme
 		"ICBrownClear"		"139 69 19 40"
 		"ICCamoClear"		"165 178 104 40"
 		"ICTurquoiseClear"	"102 214 173 40"
-		"ICCyanClear"		"95 185 193 40"		
+		"ICCyanClear"		"95 185 193 40"
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	//
@@ -4356,6 +4359,46 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"7"
+		{
+			"font"	"resource/fonts/Cocogoose_trial.otf"
+			"name"	"COCOGOOSE"
+		}
+		"8"
+		{
+			"font"	"resource/fonts/CODEBold.otf"
+			"name"	"Code-Bold"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/CODELight.otf"
+			"name"	"Code-Light"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/heydings_controls.ttf"
+			"name"	"Heydings Controls"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/heydings_icons.ttf"
+			"name"	"Heydings Icons"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/KGALittleSwag.ttf"
+			"name"	"KG A Little Swag"
+		}
+		"13"
+		{
+			"font"	"resource/fonts/Montserrat-Bold.ttf"
+			"name"	"Montserrat-Bold"
+		}
+		"14"
+		{
+			"font"	"resource/fonts/Montserrat-Regular.ttf"
+			"name"	"Montserrat-Regular"
+		}		
 	}
 }
