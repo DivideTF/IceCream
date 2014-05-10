@@ -468,7 +468,7 @@ Scheme
 		"ICCamoClear"		"165 178 104 40"
 		"ICTurquoiseClear"	"102 214 173 40"
 		"ICCyanClear"		"95 185 193 40"
-
+	}
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	//
 	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
