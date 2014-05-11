@@ -77,7 +77,7 @@
 		"textAlignment"	"east"	
 		"font"			"Mont56"
 		"fgcolor"		"IC_White"
-	}								
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
