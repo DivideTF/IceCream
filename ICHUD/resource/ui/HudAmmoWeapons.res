@@ -121,7 +121,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"Mont56"
 		"fgcolor"		"IC_White"
-		"xpos"			"30"
+		"xpos"			"35"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"200"

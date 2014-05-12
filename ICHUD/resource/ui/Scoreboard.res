@@ -1010,7 +1010,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"MontLight14"
+			"font"			"MontLight12"
 			"labelText"		"%mapname%"
 			"textAlignment"		"center"
 			"xpos"			"400"
