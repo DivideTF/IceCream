@@ -363,6 +363,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+		"fgcolor_Override"	"IC_White"
 		
 		if_mvm
 		{
@@ -385,6 +386,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+		"fgcolor_Override"	"IC_White"		
 		
 		if_mvm
 		{

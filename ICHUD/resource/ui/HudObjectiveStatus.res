@@ -30,7 +30,7 @@
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"65"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"

@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"760"	[$WIN32]
-		"ypos"			"440"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"750"	[$WIN32]
+		"ypos"			"455"	[$WIN32]
+		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -38,7 +38,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"99999"
-		"ypos"					"30"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -61,7 +61,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Geo8"
 		"xpos"					"25"
-		"ypos"					"23"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"6"				
@@ -78,8 +78,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"30"	
@@ -88,24 +88,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Heavy24"
-		"fgcolor"				"100 100 100 255"
-	}
-	"FooterLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"51"
-		"ypos"			"1"
-		"zpos"			"0"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_circle"
-		"scaleImage"	"1"
+		"font"					"Mont18"
+		"fgcolor"				"IC_White"
 	}
 }

@@ -94,7 +94,7 @@
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"IC_Black"
 	}	
 
 	HudBowCharge
@@ -177,7 +177,7 @@
 		"TextYPos" "70"		[$WIN32]
 		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
-		"TextColor" "SelectionTextFg"
+		"TextColor" "MontLight10"
 		"MaxSlots"	"6"
 		"PlaySelectSounds"	"1"
 		"Alpha" "220"
@@ -250,10 +250,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"380"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -287,7 +286,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"405"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -476,10 +475,8 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r630"	[$WIN32]
+		"ypos"	 "0"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -498,7 +495,7 @@
 		"LocalPlayerColor"	"IC_Black"
 
 		"BaseBackgroundColor"	"50 50 50 255"		[$WIN32]
-		"LocalBackgroundColor"	"IC_White"	[$WIN32]
+		"LocalBackgroundColor"	"IC_Gray"	[$WIN32]
 	}
 
 	HudVehicle
@@ -729,18 +726,16 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
+		"xpos" "r130" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
-		"wide" "145"
-		"tall" "400"
+		"wide" "130"
+		"tall" "380"
 
-		"item_wide"	"135"
+		"item_wide"	"130"
 		
 		"show_avatar"		"0"
 		
-		"show_dead_icon"	"1"
+		"show_dead_icon"	"0"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
@@ -821,7 +816,6 @@
 		"separator_width"		"0"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"450"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -1331,7 +1325,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"1" // rounded corners
 	}
 
 	"HudAlert"
@@ -1356,6 +1350,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"1" // rounded corners
 	}
 }
